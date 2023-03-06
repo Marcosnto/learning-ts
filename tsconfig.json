@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", //this explicit be what JS we're using
+    "strict": true, //force our implementation to be strict and don't let any 'any' happens 
+  }
+}

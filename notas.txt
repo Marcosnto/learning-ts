@@ -1,0 +1,1 @@
+//@ts-check => this can be used to enable sintaxe erros in the archive
