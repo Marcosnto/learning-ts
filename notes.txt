@@ -1,1 +1,5 @@
 '//@ts-check' => this can be used to enable sintaxe erros in the archive
+
+Inference => Typescript as default can determine what is the type of an element if it has value. 
+It's a good praticle not to annotate when it's happen.
+
