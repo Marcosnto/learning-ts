@@ -26,7 +26,7 @@ function fetchProduct() {
 
 fetchProduct();
 
-function showProduct(data: apiData) {
+function showProduct(data: Product) {
   document.body.innerHTML = `
       <div>
         <h2>Nome: ${data.nome}</h2>
