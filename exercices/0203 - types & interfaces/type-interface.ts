@@ -1,19 +1,17 @@
-interface apiData {
+interface Empresa {
+  nome: string;
+  fundacao: number;
+  pais: string;
+}
+
+interface Product {
   nome: string;
   preco: number;
   descricao: string;
   garantia: number;
   seguroAcidentes: boolean;
-  empresaFabricante: {
-    nome: string;
-    fundacao: number;
-    pais: string;
-  };
-  empresaMontadora: {
-    nome: string;
-    fundacao: number;
-    pais: string;
-  };
+  empresaFabricante: Empresa;
+  empresaMontadora: Empresa;
 }
 
 function fetchProduct() {
