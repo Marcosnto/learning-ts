@@ -23,7 +23,9 @@ fetchCursos();
 function mostrarCursos(cursos: Array<Curso>) {
   cursos.map((curso) => {
     document.body.innerHTML += `
-    <h1>Nome: ${curso.nome}</h1>
+    <h1 style="color: ${
+      curso.nivel === "iniciante" ? "blue" : "red"
+    }">Título: ${curso.nome}</h1>
     <p>Horas: ${curso.horas}</p>
     <p>Aulas: ${curso.aulas}</p>
     <p>Gratuito: ${curso.horas ? "Sim" : "Não"}</p>
