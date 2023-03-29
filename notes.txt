@@ -3,3 +3,5 @@
 Inference => Typescript as default can determine what is the type of an element if it has value. 
 It's a good praticle not to annotate when it's happen.
 
+Union type => The parameth can be on or other type. 
+
